@@ -1,6 +1,7 @@
-[class*="col"] {
+.pip {
    border: 1px solid black;
    height: 50px;
+   background-color: black;
 }
 
 
@@ -35,7 +36,7 @@ width: 100%;
 aside{
     height: calc(100vh - 70px);
     width: 50px;
-    background-color: aquamarine;
+    background-color: #122134;
     font-size: 1rem;
 }
 
@@ -43,6 +44,16 @@ aside{
     display: none;
 }
 
+/* Main */
+
+main{
+    width: calc(100vw - 50px);
+}
+
+.my-main{
+    background-color: #3d70e8;
+
+}
 
 
  /* ------------------  Media Queris------------------ */
@@ -85,4 +96,14 @@ aside{
         display: inline-block;
     }
 
+  }
+
+
+
+
+
+  /* Font Size */
+
+  .fs-2rem{
+    font-size: 2rem;
   }
