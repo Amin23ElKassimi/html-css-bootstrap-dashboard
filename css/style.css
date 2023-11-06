@@ -1,4 +1,7 @@
-
+[class*="col"] {
+   border: 1px solid black;
+   height: 50px;
+}
 
 
 /* ######## Header ######## */
@@ -25,6 +28,9 @@ width: 100%;
 }
 
 /* ######## Main ######## */
+
+
+/* Aside */
 
 aside{
     height: calc(100vh - 70px);
