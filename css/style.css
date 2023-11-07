@@ -59,6 +59,7 @@ main{
     margin: 0 auto  ;
     height: calc(100vh - 270px);
     overflow: auto;
+    overflow-x: hidden;
 }
 
  /* ------------------  Media Queris------------------ */
